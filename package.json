@@ -1,14 +1,14 @@
 {
   "name": "quickswap-v2-subgraph",
   "version": "1.0.0",
-  "repository": "https://github.com/sameepsi/quickswapv2-subgraph",
+  "repository": "https://github.com/mrandall101/quickswapv2-subgraph",
   "license": "GPL-3.0-or-later",
   "scripts": {
     "codegen": "graph codegen --output-dir src/types/",
     "build": "graph build",
-    "create-local": "graph create sameepsi/quickswap --node http://127.0.0.1:8020/",
-    "deploy-local": "graph deploy sameepsi/quickswap --ipfs http://localhost:5001 --node http://127.0.0.1:8020/ --debug",
-    "deploy": "graph deploy --access-token 244e2a5c24e74c79b27ade6490ce7d6d --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ sameepsi/quickswap",
+    "create-local": "graph create mrandall101/zolaswap --node http://127.0.0.1:8020/",
+    "deploy-local": "graph deploy mrandall101/zolaswap --ipfs http://localhost:5001 --node http://127.0.0.1:8020/ --debug",
+    "deploy": "graph deploy --access-token 5d985524bf344749b776d6c558695af6 --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ mrandall101/zolaswap",
     "deploy02": "graph deploy --access-token <access_token> --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ sameepsi/quickswap02",
     "deploy03": "graph deploy --access-token 393650ebdc6846eab8137310622a92ea --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ sameepsi/quickswap03",
     "deploy07": "graph deploy --access-token 43ed873c9b7244c3868a01d59a8b7768 --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ sameepsi/quickswap07",

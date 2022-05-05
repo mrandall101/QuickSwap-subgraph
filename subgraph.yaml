@@ -1,5 +1,5 @@
 specVersion: 0.0.2
-description: Quickswap is a decentralized protocol for automated token exchange on Matic.
+description: Zolaswap is a decentralized protocol for automated token exchange on Matic.
 repository: https://github.com/QuickSwap/QuickSwap-subgraph.git
 schema:
   file: ./schema.graphql
@@ -8,7 +8,7 @@ dataSources:
     name: Factory
     network: matic
     source:
-      address: '0x5757371414417b8C6CAad45bAeF941aBc7d3Ab32'
+      address: '0x82C204A1afb5305153850c01e983443E43d88c0D'
       abi: Factory
       startBlock: 5484576
     mapping:
